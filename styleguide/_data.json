@@ -1,0 +1,43 @@
+{
+  "clientName": "Sprout Styleguide",
+  "version": "1",
+  "language": "en_US",
+  "logoImage": "sprout-logo.png",
+  "breakpoints": [
+    {
+      "id": "small",
+      "name": "Small",
+      "size": "420px"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "size": "720px"
+    },
+    {
+      "id": "large",
+      "name": "Large",
+      "size": "1280px"
+    },
+    {
+      "id": "full",
+      "name": "Full",
+      "size": "100%"
+    }
+  ],
+  "translations": {
+    "pt_BR": {
+      "begining": "Início",
+      "styleguide": "Styleguide"
+    },
+    "en_US": {
+      "begining": "Preface",
+      "styleguide": "Styleguide"
+    },
+    "es_CO": {
+      "begining": "Inicio",
+      "styleguide": "Styleguide"
+    }
+  },
+  "date": "2018/01/02"
+}
