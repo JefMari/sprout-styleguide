@@ -1,5 +1,5 @@
 # Sprout Styleguide [![Build Status](https://travis-ci.org/hugeinc/styleguide.svg?branch=master)](https://travis-ci.org/hugeinc/styleguide)
-#### Styleguide for its project.
+#### Styleguide for Sprout Projects.
 
 For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide/)
 
