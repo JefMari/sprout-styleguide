@@ -1,7 +1,7 @@
 # Sprout Styleguide [![Build Status](https://travis-ci.org/hugeinc/styleguide.svg?branch=master)](https://travis-ci.org/hugeinc/styleguide)
 #### Styleguide for Sprout Projects.
 
-For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide/)
+For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide/www/index.html)
 
 ## Installation 
 This project has the following dependencies (Install each of them):
@@ -16,7 +16,6 @@ You also need to go to `styleguide/structure/_node-files` and run:`npm install`
 To start the Styleguide go to You also need to go to `styleguide/structure/_node-files` and run:`node watch.js`
 
 Wait and the browser will open with the Styleguide running via `http://localhost:9241`.
-
 
 
 ### Authors  
