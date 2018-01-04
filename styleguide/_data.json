@@ -1,7 +1,7 @@
 {
-  "clientName": "Sprout Styleguide",
+  "clientName": "Sprout",
   "version": "1",
-  "language": "en_US",
+  "language": "en-US",
   "logoImage": "sprout-logo.png",
   "breakpoints": [
     {
@@ -26,18 +26,14 @@
     }
   ],
   "translations": {
-    "pt_BR": {
-      "begining": "Início",
+    "en-US": {
+      "beginning": "Preface",
       "styleguide": "Styleguide"
     },
-    "en_US": {
-      "begining": "Preface",
-      "styleguide": "Styleguide"
-    },
-    "es_CO": {
-      "begining": "Inicio",
-      "styleguide": "Styleguide"
+    "ja-JP": {
+      "beginning": "始まり",
+      "styleguide": "スタイルガイド"
     }
   },
-  "date": "2018/01/02"
+  "date": "2018/1/3"
 }
