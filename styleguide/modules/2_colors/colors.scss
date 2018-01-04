@@ -6,20 +6,28 @@ $blue: #2fbbf9;
 $green: #75a642;
 
 
-.magenta {
+.text-magenta {
   color:$magenta;
 }
 
-.black {
+.text-black {
   color:$black;
 }
 
-.gray-dark {
+.text-gray-dark {
   color:$gray-dark;
 }
 
-.gray {
+.text-gray {
   color:$gray;
+}
+
+.text-blue {
+  color:$blue;
+}
+
+.text-green {
+  color:$green;
 }
 
 .bg-magenta {
@@ -34,8 +42,8 @@ $green: #75a642;
 	background-color: $black;
 }
 
-.bg-grey {
-	background-color: $grey;
+.bg-gray {
+	background-color: $gray;
 }
 
 .bg-blue {
