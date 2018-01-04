@@ -2,10 +2,10 @@
     "id": "colors",
     "name": "Colors",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black. Additional Blue might be found on slides or t-shirts."],
+        "intro": ["These colors are mostly for Marketing Collaterals, but can be used in anything that holds Sprout’s identity."],
         "colors": [
             {
-                "className": "bg-magenta"
+                "className": "bg-green"
             },
             {
                 "className": "bg-black"
