@@ -1,9 +1,26 @@
 $magenta: #ec008c;
 $black: #000;
-$grey-dark: #232525;
-$grey: #808080;
+$gray-dark: #232525;
+$gray: #808080;
 $blue: #2fbbf9;
 $green: #75a642;
+
+
+.magenta {
+  color:$magenta;
+}
+
+.black {
+  color:$black;
+}
+
+.gray-dark {
+  color:$gray-dark;
+}
+
+.gray {
+  color:$gray;
+}
 
 .bg-magenta {
 	background-color: $magenta;

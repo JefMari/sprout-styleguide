@@ -3,3 +3,75 @@
 @font-face{font-family:'Galaxie';font-style:italic;font-weight:normal;src:url("GalaxieCopernicus-BookItalic.eot?#iefix") format("embedded-opentype"),url("GalaxieCopernicus-BookItalic.woff") format("woff"),url("GalaxieCopernicus-BookItalic.svg#svgFontName") format("svg")}
 
 
+/* GORDITA */
+
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Light-Italic.otf') format('truetype');
+  font-weight: 100i;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Light.otf') format('truetype');
+  font-weight: 100;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Regular-Italic.otf') format('truetype');
+  font-weight: 400i;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Medium-Italic.otf') format('truetype');
+  font-weight: 500i;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Bold-Italic.otf') format('truetype');
+  font-weight: 600i;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Bold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Black-Italic.otf') format('truetype');
+  font-weight: 700i;
+  font-style: italic; 
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url('Gordita/Gordita-Black.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal; 
+}
