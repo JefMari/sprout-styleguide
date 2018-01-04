@@ -1,14 +1,24 @@
 @import "../../assets/fonts/Huge/stylesheet.css";
 
+$font-primary: Gordita;
+
 .font-huge {
-	font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+	font-family: 'Gordita', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: normal;
+}
+
+
+.font-gordita {
+	font-family: 'Gordita', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 	font-weight: normal;
 }
 
 .font-galaxie {
-	font-family: 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Gordita', Helvetica, Roboto, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 	font-weight: normal;
@@ -19,37 +29,46 @@
 }
 
 h1 {
-	font-size: 100px;
-	line-height: 120px;
+	font-size: 36px;
+	font-weight:500;
+	line-height: 60px;
 }
 
 h2 {
-	font-size: 80px;
-	line-height: 92px;
+	font-size: 32px;
+	font-weight:500;
+	line-height: 60px;
 }
 
 h3 {
-	font-size: 38px;
+	font-size: 28px;
+	line-height: 60px;
+}
+
+h4{
+	font-size: 24px;
 	line-height: 45px;
 }
 
-.p1, .p2 {
-	padding-right: 20%;
+h5 {
+	font-size: 20px;
+	line-height: 45px;
 }
 
-.p3 {
-	font-size: 15px;
-	line-height: 1.8;
-	color: #666;
-	margin-top: 3em;
+h6 {
+	font-size: 16px;
+	line-height: 45px;
+}
+
+p {
+	font-size:14px;
+	font-family:$font-primary;
+	font-style: normal;
+	line-height: 30px;
 }
 
 #typography {
   h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
-  }
-  p {
-  	font: 16px/2 "Galaxie";
-  	margin: 2em 0;
   }
 }
