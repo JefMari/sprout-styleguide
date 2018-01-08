@@ -75,7 +75,7 @@
   text-align: center;
   height: 63px;
   width: 63px;
-  background-color: $magenta;
+  background-color: $green;
   padding: 20px 0 10px 0;
   z-index: 10;
   position: absolute;
@@ -148,6 +148,7 @@
   transition: transform $transitionLength cubic-bezier(.37,.62,.47,.72);
   transform: translateX(-240px);
   height: 100%;
+  font-weight:500;
   width: $sidebarOpenedWidth;
   z-index: 11;
   overflow: auto;
@@ -161,21 +162,21 @@
   display: block;
   padding: 12px 16px 12px 29px;
   color: #777;
-  font-family: HUGEAvantGardeBold, sans-serif;
-  letter-spacing: -1px;
-  font-weight: normal;
+  font-family: Gordita, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
-  border-left: 0 solid $magenta;
+  border-left: 0 solid $green;
   outline: none;
   transition: all 0.4s ease;
 
   &:hover, &.active {
-    color: $magenta;
+    color: $green;
     transition: all 0.4s ease;
-    border-left: 4px solid $magenta
+    border-left: 4px solid $green
   }
 }
 
