@@ -1,5 +1,13 @@
 h2.huge-module__title=name
 ul.huge-list--unstyled
-	each button in items
-		li
-			a(href='#', class="snippet #{button.className}")=button.buttonName
+  li.snippet
+    each button in items
+      .a(href='#', class="#{button.className}")=button.buttonName
+      
+
+br
+
+ul.huge-list--unstyled
+  li.snippet
+    each button in items2
+      .a(href='#', class="#{button.className}")=button.buttonName
