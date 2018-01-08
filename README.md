@@ -26,7 +26,7 @@ cd styleguide/structure/_node-files && node write-date-exec.js
 cd ../../.. && harp compile
 ```
 
-A 'www' folder will be created containg all the compiled files.
+A `www` folder will be created containg all the compiled files.
 
 
 ### Authors  
