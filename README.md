@@ -1,7 +1,7 @@
 # Sprout Styleguide [![Build Status](https://travis-ci.org/JefMari/sprout-styleguide.svg?branch=master)](https://travis-ci.org/JefMari/sprout-styleguide)
 #### Styleguide for Sprout Projects.
 
-For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide/www)
+For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide)
 
 ## Requirements and Installation 
 This project has the following dependencies (Install each of them):
