@@ -1,9 +1,0 @@
-{
-	"id": "introduction",
-	"name": "Introduction",
-	"scripts": ["introduction.js"],
-	"items" : [
-        "BRAND BIBLE Anything and everything about this brand and how to use it.",
-        "To impact the life of every Filipino by improving business in the Philippines."
-	]
-}

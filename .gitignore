@@ -1,9 +1,0 @@
-node_modules
-.tmp
-.sass-cache
-.codekit-cache
-*.lock
-*.log
-.idea
-logs
-reports

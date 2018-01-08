@@ -1,0 +1,13 @@
+<h1>Sprout Styleguide <a href="https://travis-ci.org/JefMari/sprout-styleguide"><img src="https://travis-ci.org/JefMari/sprout-styleguide.svg?branch=master" alt="Build Status"></a></h1><h4>Styleguide for Sprout Projects.</h4><p>For downloads, how to get started and detailed documentation please refer to the <a href="https://jefmari.github.io/sprout-styleguide/www">Styleguide Website</a></p>
+<h2>Requirements and Installation</h2><p>This project has the following dependencies (Install each of them):</p>
+<p><a href="https://nodejs.org/en/" title="Node.js">Node.js</a> (v6 and up)
+<a href="http://harpjs.com/" title="Harp.js">Harp.js</a> (Latest)</p>
+<p>You also need to go to <code>styleguide/structure/_node-files</code> and run:<code>npm install</code></p>
+<h3>Development and Usage</h3><p>To start the Styleguide go to You also need to go to <code>styleguide/structure/_node-files</code> and run:<code>node watch.js</code></p>
+<p>Wait and the browser will open with the Styleguide running via <code>http://localhost:9241</code>.</p>
+<h3>Publish and Output</h3><p>To compile the project for www, remove first the existing <code>www</code> folder then at the root folder, execute this via command line</p>
+<pre><code class="language-sh">cd styleguide/structure/_node-files &amp;&amp; node write-date-exec.js
+cd ../../.. &amp;&amp; harp compile
+</code></pre>
+<p>A <code>www</code> folder will be created containg all the compiled files.</p>
+<h3>Authors</h3><p>Jeferson Mari <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#x6a;&#101;&#102;&#101;&#x72;&#115;&#111;&#x6e;&#x6d;&#64;&#115;&#x70;&#x72;&#111;&#x75;&#x74;&#46;&#112;&#x68;">&#x6a;&#101;&#102;&#101;&#x72;&#115;&#111;&#x6e;&#x6d;&#64;&#115;&#x70;&#x72;&#111;&#x75;&#x74;&#46;&#112;&#x68;</a><br>Pappu Sabnani <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x70;&#x61;&#112;&#x70;&#117;&#115;&#x40;&#115;&#x70;&#114;&#x6f;&#x75;&#x74;&#x2e;&#112;&#x68;">&#x70;&#x61;&#112;&#x70;&#117;&#115;&#x40;&#115;&#x70;&#114;&#x6f;&#x75;&#x74;&#x2e;&#112;&#x68;</a><br>Jhaya Valenciano <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x6a;&#104;&#x61;&#x79;&#x61;&#118;&#64;&#x73;&#x70;&#x72;&#x6f;&#117;&#116;&#x2e;&#112;&#x68;">&#x6a;&#104;&#x61;&#x79;&#x61;&#118;&#64;&#x73;&#x70;&#x72;&#x6f;&#117;&#116;&#x2e;&#112;&#x68;</a><br>Clarice Lualhati <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#99;&#x6c;&#x61;&#x72;&#x69;&#99;&#101;&#108;&#64;&#x73;&#112;&#114;&#111;&#117;&#116;&#x2e;&#x70;&#x68;">&#99;&#x6c;&#x61;&#x72;&#x69;&#99;&#101;&#108;&#64;&#x73;&#112;&#114;&#111;&#117;&#116;&#x2e;&#x70;&#x68;</a>   </p>
