@@ -3,9 +3,33 @@
 	"name": "Buttons",
 	"hasScript": "yes",
 	"items": [
-	    {
-	        "buttonName" : "Load more",
-	        "className": "button black"
-	    }
+		{
+				"buttonName" : "Small",
+				"className": "button button-small"
+		},
+		{
+				"buttonName" : "Normal",
+				"className": "button button-normal"
+		},
+		{
+				"buttonName" : "Medium",
+				"className": "button button-medium"
+		},
+		{
+				"buttonName" : "Large - L",
+				"className": "button button-large"
+		}
+
+	],
+	"items2": [
+		{
+				"buttonName" : "Rounded",
+				"className": "button button-normal"
+		},
+		{
+				"buttonName" : "Racetrack",
+				"className": "button button-racetrack"
+		}
+
 	]
 }
