@@ -3,7 +3,7 @@
 	"name": "Introduction",
 	"scripts": ["introduction.js"],
 	"items" : [
-        "Hello! Welcome to the Styleguide, A tool to make creating and maintaining styleguides easy.",
-        "Please feel free to collaborate with the project <a href='https://github.com/JefMari/sprout-styleguide'>on Github</a>. You can read the documentation <a href='https://jefmari.github.io/sprout-styleguide/'>here</a>."
-    ]
+        "BRAND BIBLE Anything and everything about this brand and how to use it.",
+        "To impact the life of every Filipino by improving business in the Philippines."
+	]
 }
