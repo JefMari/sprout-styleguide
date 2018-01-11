@@ -90,40 +90,11 @@ $black: #000;
 		a {
 			text-decoration: none;
 		}
-	}
-
-	&.button-dropdown {
-		padding: 9px 18px;
-		font-size: 14px;
-
-		a {
-			text-decoration: none;
-		}
-	}
-
-	&.button-split {
-		padding: 9px 18px;
-		font-size: 14px;
-		margin: 0;
-		border: none !important;
 
 		&:hover {
-			border: none;
-			border-left: 1px solid black;
-		}
-	}
-
-	&.button-dropdown-split {
-		padding: 9px 18px;
-		font-size: 14px;
-		margin: 0;
-		border: none;
-		border-left: 1px solid black;
-		border-radius: 0;
-
-		&:hover {
-			border: none;
-			border-left: 1px solid black;
+			a {
+				color: #fefefe;
+			}
 		}
 	}
 
@@ -148,20 +119,4 @@ $black: #000;
 
 .icon-right {
 	margin-left: 12px;
-}
-
-.dropdown-menu {
-	width: 15%;
-	display: none;
-  position: absolute;
-  left: 0;
-  padding: 0;
-  margin-left: 172px;
-  margin-top: 10px;
-  text-align: left;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-	li {
-		padding: 10px;
-	}
 }
