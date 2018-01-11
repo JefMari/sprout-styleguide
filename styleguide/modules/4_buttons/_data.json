@@ -2,6 +2,7 @@
 	"id": "buttons",
 	"name": "Buttons",
 	"hasScript": "yes",
+	"scripts": ["buttons.js"],
 	"items": [
 		{
 				"buttonName" : "Small",
@@ -23,6 +24,25 @@
 	],
 	"items2": [
 		{
+				"buttonName" : "Small",
+				"className": "button button-racetrack-small"
+		},
+		{
+				"buttonName" : "Normal",
+				"className": "button button-racetrack"
+		},
+		{
+				"buttonName" : "Medium",
+				"className": "button button-racetrack-medium"
+		},
+		{
+				"buttonName" : "Large - L",
+				"className": "button button-racetrack-large"
+		}
+
+	],
+	"items3": [
+		{
 				"buttonName" : "Rounded",
 				"className": "button button-normal"
 		},
@@ -31,5 +51,16 @@
 				"className": "button button-racetrack"
 		}
 
+	],
+	"items4": [
+		{
+				"buttonName" : "Rounded",
+				"className": "button button-solid"
+		},
+
+		{
+				"buttonName" : "Racetrack",
+				"className": "button button-solid-racetrack"
+		}
 	]
 }

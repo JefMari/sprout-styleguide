@@ -3,6 +3,7 @@ block meta
 	base(target="_blank")
 block styles
 	link(href='assets/styles/structure.css', rel='stylesheet')
+	link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel="stylesheet")
 	each module in modulesData
 			- var stylesheet = 'modules/' + module.order + '_' + module.id + '/' + module.id + '.css'
 			link(href=stylesheet, rel='stylesheet')
@@ -17,6 +18,9 @@ block scripts
 	script(src="structure/scripts/vendor/prism.js")
 	script(src="structure/scripts/vendor/tidy.js")
 	script(src="structure/scripts/iframe.js")
+	//- script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+	//- script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js')
+
 	each module in modulesData
 		if module.scripts
 			each script in module.scripts
