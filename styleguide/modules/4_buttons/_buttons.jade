@@ -1,13 +1,74 @@
+
 h2.huge-module__title=name
+| Button Sizes
 ul.huge-list--unstyled
   li.snippet
     each button in items
       .a(href='#', class="#{button.className}")=button.buttonName
       
-
 br
-
+| Racetrack Button Sizes
 ul.huge-list--unstyled
   li.snippet
     each button in items2
       .a(href='#', class="#{button.className}")=button.buttonName
+      
+br
+| Button Shapes
+ul.huge-list--unstyled
+  li.snippet
+    each button in items3
+      a(href='#', class="#{button.className}")=button.buttonName
+
+br
+| Solid Button
+ul.huge-list--unstyled
+  li.snippet
+    each button in items4
+      a(href='#', class="#{button.className}")=button.buttonName
+
+br
+| Button with Icon
+ul.huge-list--unstyled
+  li.button.button-icon.snippet
+    a(href='#')
+      i.fa.fa-plus.icon-left(aria-hidden='true')
+      | Add
+
+br
+| Single Button Dropdown
+ul.huge-list--unstyled
+  li.button.button-dropdown.snippet
+    a.dropdown-toggle(href='javascript:void(0)')
+      | Select
+      span.fa.fa-caret-down.icon-right
+    ul.dropdown-menu
+      li
+        a(href='#')
+          | Drop Item 1
+      li
+        a(href='#')
+          | Drop Item 2
+      li
+        a(href='#')
+          | Drop Item 3
+
+br
+| Split Button Dropdown
+ul.huge-list--unstyled
+span.button.snippet
+  li.button.button-split
+    a(href='#')
+    | Select
+  li.button.button-dropdown-split.dropdown-toggle(href='javascript:void(0)')
+    span.fa.fa-caret-down
+  ul.dropdown-menu
+    li
+      a(href='#')
+        | Drop Item 1
+    li
+      a(href='#')
+        | Drop Item 2
+    li
+      a(href='#')
+        | Drop Item 3
