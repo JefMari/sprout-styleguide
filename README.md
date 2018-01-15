@@ -1,4 +1,9 @@
-# Sprout Styleguide [![Build Status](https://travis-ci.org/JefMari/sprout-styleguide.svg?branch=master)](https://travis-ci.org/JefMari/sprout-styleguide)
+# Sprout Styleguide
+
+[![Build Status](https://travis-ci.org/JefMari/sprout-styleguide.svg?branch=master)](https://travis-ci.org/JefMari/sprout-styleguide)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)]()
+
 #### Styleguide for Sprout Projects.
 
 For downloads, how to get started and detailed documentation please refer to the [Styleguide Website](https://jefmari.github.io/sprout-styleguide)
