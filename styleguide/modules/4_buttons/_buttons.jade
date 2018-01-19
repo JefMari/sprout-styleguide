@@ -1,4 +1,3 @@
-
 h2.huge-module__title=name
 | Button Sizes
 ul.huge-list--unstyled
@@ -37,3 +36,29 @@ ul.huge-list--unstyled
 
 br
 | Single Button Dropdown
+.row
+  .medium-3.column
+    ul.huge-list--unstyled
+      .dropdown
+        button#dropdownMenuButton.button.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          | Dropdown
+        .dropdown-menu(aria-labelledby='dropdownMenuButton')
+          a.dropdown-item(href='#') Action
+          a.dropdown-item(href='#') Another action
+          a.dropdown-item(href='#') Something else here
+//
+  br
+  | Split Button Dropdown
+  .row
+    .medium-3.column
+      ul.huge-list--unstyled
+        .button-group.ml-2
+        button.button.button-normal(type='button') Split button
+        button.button.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          span.sr-only Toggle Dropdown
+        .dropdown-menu
+          a.dropdown-item(href='#') Action
+          a.dropdown-item(href='#') Another action
+          a.dropdown-item(href='#') Something else here
+          .dropdown-divider
+          a.dropdown-item(href='#') Separated link

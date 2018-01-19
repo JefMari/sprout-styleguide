@@ -4,6 +4,8 @@ block meta
 block styles
 	link(href='assets/styles/structure.css', rel='stylesheet')
 	link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel="stylesheet")
+	link(href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css' rel='stylesheet')
+
 	each module in modulesData
 			- var stylesheet = 'modules/' + module.order + '_' + module.id + '/' + module.id + '.css'
 			link(href=stylesheet, rel='stylesheet')
@@ -14,6 +16,9 @@ block content
 		include structure/_templates/_footer.jade
 
 block scripts
+	script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+	script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js')
 	script(src="structure/scripts/vendor/jquery-1.11.1.min.js")
 	script(src="structure/scripts/vendor/prism.js")
 	script(src="structure/scripts/vendor/tidy.js")

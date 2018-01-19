@@ -1,45 +1,55 @@
 h2.huge-module__title=name
 form.snippet
   fieldset
+  
     .row
       .medium-6.column
-        input.g-wide--full(type='text', placeholder='Placeholder')
+        label First Name
+        input(type='text', placeholder="Enter first name")
       .medium-6.column
-        input.g-wide--full(type='text', value=items.disabled, disabled='')
+        label Last Name
+        input(type='text', placeholder="Enter last name")
+        
     .row
       .medium-6.column
-        label Email input
-        input(type='email')
+        label Email
+        input(type='email', placeholder="Enter email")
       .medium-6.column
-        label Password input
-        input(type='password', value='password')
+        label Password
+        input#password-field.form-control(type='password', name='password', value='password')
+        span.fa.fa-fw.fa-eye.field-icon.toggle-password(toggle='#password-field')
+  
+    .row 
+      .medium-6.column
+        label Gender
+        span
+          select
+            option Male
+            option Female
+    
     .row
+      .medium-6.column
+        label Date
+        input(type='Date', placeholder="")
       .medium-6.column
         label Textarea
-        textarea(cols='30', rows='5') Textarea text
-      .medium-6.column
-        label Select field
-        select
-          option Option 01
-          option Option 02
-      .medium-6.column
-        label File input
-        input(type='file')
+        textarea(cols='30', rows='5') Enter text here...
+        
     .row
       .medium-6.column
-        label
-          input(type='radio', name='rad')
-          | Radio input
-        label
-          input(type='checkbox')
-          | Checkbox input
-      .medium-6.column
-        label Number input
-        input(type='number', value='5', min='0', max='10')
+        label Disabled
+        input(type='disabled', placeholder="I am not editable", disabled="", value="Disabled")
+      //
+        .medium-6.column
+          label File input
+          input(type='file')
+
     .row
       .medium-6.column
-        label Date input
-        input(type='date')
-      .medium-6.column
-        label Time input
-        input(type='time')
+        label With helptext
+        input.sample(type='text', placeholder="")
+        label.helptext This is help or error text
+      
+      
+
+    
