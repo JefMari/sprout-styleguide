@@ -13,4 +13,96 @@ select {
   fieldset {
     margin-top: 0;
   }
+
+	label {
+		font-size: 14px;
+		color: black;
+		margin: 4px;
+		cursor: default;
+
+		&.helptext {
+			margin: 0;
+			font-size: 10px;
+			color: orange;
+		}
+	}
+
+ input[type="text"], input[type="email"], input[type="Date"], input[type="password"] {
+		 height: 36px;
+		 font-size: 14px;
+		 box-shadow: none !important;
+		 border: 0.5px solid black;
+		 border-radius: 4px;
+		 color: rgba(0, 0, 0, 0.75);
+
+		 &:active, &:focus, &:visited {
+			 background: none !important;
+		 }
+	}
+
+
+	input[type="disabled"] {
+		 width: 100%;
+		 height: 36px;
+		 cursor: auto;
+		 font-size: 14px;
+		 color: #888;
+		 box-shadow: none !important;
+		 border: 0.5px dashed #888;
+		 border-radius: 4px;
+		 padding: 8px;
+		 margin: 0 0 8px 0;
+
+		 &:active, &:focus, &:visited {
+			 background: none !important;
+		 }
+	}
+
+	input.sample {
+		margin:  0 !important;
+	}
+
+	select {
+ 		 height: 36px;
+ 		 font-size: 14px;
+ 		 box-shadow: none !important;
+ 		 border: 0.5px solid black;
+ 		 border-radius: 4px;
+		 background: none;
+ 		 color: rgba(0, 0, 0, 0.75);
+
+		 &:hover {
+	 		 border: 0.5px solid black;
+			 background: none;
+		 }
+
+ 		 &:active, &:focus, &:visited {
+ 			 background: #f3f3f3;;;
+			 outline: 0 !important;
+ 		 }
+ 	}
+
+	option {
+		color: rgba(0, 0, 0, 0.75);
+	}
+
+	textarea {
+		height: 36px;
+		font-size: 14px;
+		box-shadow: none !important;
+		border: 0.5px solid black;
+		border-radius: 4px;
+
+		&:active, &:focus, &:visited {
+			background: none !important;
+		}
+	}
+
+	.field-icon {
+	  margin-left: 350px;
+	  margin-top: -42px;
+	  position: absolute;
+	  z-index: 2;
+	}
+
 }
