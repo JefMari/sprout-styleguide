@@ -34,21 +34,68 @@ form.snippet
       .medium-6.column
         label Textarea
         textarea(cols='30', rows='5') Enter text here...
+    
+    .row
+      .medium-6.column
+        label Telephone Number
+        input(class='phone', type="text")
         
     .row
       .medium-6.column
         label Disabled
         input(type='disabled', placeholder="I am not editable", disabled="", value="Disabled")
-      //
-        .medium-6.column
-          label File input
+      .medium-6.column
+        label File input
+        .upload-btn-wrapper
+          button.button.button-small Upload
           input(type='file')
+          label Choose a file
 
     .row
       .medium-6.column
         label With helptext
         input.sample(type='text', placeholder="")
         label.helptext This is help or error text
+        
+      .medium-6.column
+        label
+          input#opt1.hidden-xs-up(type='radio', name='rdo')
+          label.radio(for='opt1')
+          span.rlabel(for='opt1') Left
+          input#opt2.hidden-xs-up(type='radio', name='rdo')
+          label.radio(for='opt2')
+          span.rlabel(for='opt2') Right
+        label
+          input#cbx.hidden-xs-up(type="checkbox")
+          label.cbx(for="cbx")
+          span.lbl(for="cbx") Checkbox input
+    .row
+    .row
+      .medium-10.column
+        img.avatar-xxlarge(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+    .row
+      .medium-6.column
+        img.avatar-xlarge(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+    .row
+      .medium-6.column
+        img.avatar-large(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+    .row
+      .medium-6.column
+        img.avatar-medium(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+    .row
+      .medium-6.column
+        img.avatar-small(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+    .row
+      .medium-6.column
+        img.avatar-xsmall(src='https://atlassian.design/uploads/guidelines/product/avatars/person-xlarge-128px-avatar.png', style='')
+        | Lorem ipsum 
+        
+
       
       
 
