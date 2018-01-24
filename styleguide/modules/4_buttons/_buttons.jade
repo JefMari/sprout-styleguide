@@ -36,16 +36,14 @@ ul.huge-list--unstyled
 
 br
 | Single Button Dropdown
-.row
-  .medium-3.column
-    ul.huge-list--unstyled
-      .dropdown
-        button#dropdownMenuButton.button.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-          | Dropdown
-        .dropdown-menu(aria-labelledby='dropdownMenuButton')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          a.dropdown-item(href='#') Something else here
+ul.huge-list--unstyled
+  .dropdown.snippet
+    button#dropdownMenuButton.button.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+      | Dropdown
+    .dropdown-menu(aria-labelledby='dropdownMenuButton')
+      a.dropdown-item(href='#') Action
+      a.dropdown-item(href='#') Another action
+      a.dropdown-item(href='#') Something else here
 //
   br
   | Split Button Dropdown

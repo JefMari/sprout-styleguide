@@ -8,3 +8,7 @@ $(".toggle-password").click(function() {
     input.attr("type", "password");
   }
 });
+
+$(document).ready(function(){
+  $('.phone').inputmask("99-9999999");  //static mask
+});
