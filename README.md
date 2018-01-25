@@ -1,6 +1,7 @@
 # Sprout Styleguide
 
 [![Build Status](https://travis-ci.org/JefMari/sprout-styleguide.svg?branch=master)](https://travis-ci.org/JefMari/sprout-styleguide)
+[![Build status](https://ci.appveyor.com/api/projects/status/fq954ye9yqa6e3hi?svg=true)](https://ci.appveyor.com/project/JefMari/sprout-styleguide)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)]()
 
