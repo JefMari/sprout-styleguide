@@ -3,9 +3,7 @@ block meta
 	base(target="_blank")
 block styles
 	link(href='assets/styles/structure.css', rel='stylesheet')
-	link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel="stylesheet")
-	link(href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css' rel='stylesheet')
-
+	
 	each module in modulesData
 			- var stylesheet = 'modules/' + module.order + '_' + module.id + '/' + module.id + '.css'
 			link(href=stylesheet, rel='stylesheet')

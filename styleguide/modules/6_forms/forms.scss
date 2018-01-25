@@ -1,5 +1,7 @@
 @import "vendor/foundation-form.scss";
 
+
+
 .button {
 	background: none;
 	color: black;
@@ -100,8 +102,8 @@ select {
 		transform: rotate(45deg) scale(0);
 		border-right: 2px solid #fff;
 		border-bottom: 2px solid #fff;
-		transition: all 0.3s ease;
-		transition-delay: 0.15s;
+		transition: all 0.06s ease;
+		transition-delay: 0.06s;
 	}
 
 	.lbl {
@@ -113,15 +115,13 @@ select {
 	#cbx:checked ~ .cbx {
 		border-color: transparent;
 		background: #6871f1;
-		animation: jelly 0.6s ease;
+		animation: jelly 0.06s ease;
 	}
 
 	#cbx:checked ~ .cbx:after {
 		opacity: 1;
 		transform: rotate(45deg) scale(1);
 	}
-
-
 
 	input[type="checkbox"] {
 		display: none !important;
@@ -150,20 +150,19 @@ select {
 		transform: scale(0);
 	}
 
-	.radio:not(:first-child) {
-		margin-left: 20px;
+	input[type="radio"]+label:not(:first-child) {
+		margin-left: 45px;
 	}
 
 	.rlabel {
-		position: relative;
-		top: 1px;
+		position: absolute;
 		vertical-align: middle;
 		cursor: pointer;
 	}
 
 	input[type="radio"]:checked + .radio {
 		border-color: #6871f1;
-		animation: jelly 0.6s ease forwards;
+		animation: jelly 0.06s ease forwards;
 	}
 
 	input[type="radio"]:checked + .radio:after {
@@ -184,10 +183,6 @@ select {
 			transform: scale(1.25, 0.75);
 		}
 
-		40% {
-			transform: scale(0.75, 1.25);
-		}
-
 		50% {
 			transform: scale(1.15, 0.85);
 		}
@@ -196,14 +191,11 @@ select {
 			transform: scale(0.95, 1.05);
 		}
 
-		75% {
-			transform: scale(1.05, 0.95);
-		}
-
 		to {
 			transform: scale(1, 1);
 		}
 	}
+
 	@-webkit-keyframes jelly {
 		from {
 			transform: scale(1, 1);
@@ -213,10 +205,6 @@ select {
 			transform: scale(1.25, 0.75);
 		}
 
-		40% {
-			transform: scale(0.75, 1.25);
-		}
-
 		50% {
 			transform: scale(1.15, 0.85);
 		}
@@ -225,14 +213,11 @@ select {
 			transform: scale(0.95, 1.05);
 		}
 
-		75% {
-			transform: scale(1.05, 0.95);
-		}
-
 		to {
 			transform: scale(1, 1);
 		}
 	}
+
 	@-o-keyframes jelly {
 		from {
 			transform: scale(1, 1);
@@ -242,10 +227,6 @@ select {
 			transform: scale(1.25, 0.75);
 		}
 
-		40% {
-			transform: scale(0.75, 1.25);
-		}
-
 		50% {
 			transform: scale(1.15, 0.85);
 		}
@@ -254,14 +235,11 @@ select {
 			transform: scale(0.95, 1.05);
 		}
 
-		75% {
-			transform: scale(1.05, 0.95);
-		}
-
 		to {
 			transform: scale(1, 1);
 		}
 	}
+
 	@keyframes jelly {
 		from {
 			transform: scale(1, 1);
@@ -271,20 +249,12 @@ select {
 			transform: scale(1.25, 0.75);
 		}
 
-		40% {
-			transform: scale(0.75, 1.25);
-		}
-
 		50% {
 			transform: scale(1.15, 0.85);
 		}
 
 		65% {
 			transform: scale(0.95, 1.05);
-		}
-
-		75% {
-			transform: scale(1.05, 0.95);
 		}
 
 		to {
@@ -398,33 +368,136 @@ select {
 		max-width: none;
 
 		&.avatar-xxlarge {
-			width: 128px;
-			height: auto;
+			height: 128px;
 		}
 
 		&.avatar-xlarge {
-			width: 96px;
-			height: auto;
+			height: 96px;
 		}
 
 		&.avatar-large {
-			width: 40px;
-			height: auto;
+			height: 40px;
 		}
 
 		&.avatar-medium {
-			width: 32px;
-			height: auto;
+			height: 32px;
 		}
 
 		&.avatar-small {
-			width: 24px;
-			height: auto;
+			height: 24px;
 		}
 
 		&.avatar-xsmall {
-			width: 16px;
-			height: auto;
+			height: 16px;
 		}
 	}
+
+	lozenges {
+		padding: 2px 6px;
+		background: none;
+		border-radius: 4px;
+		font-size: 11px;
+		font-weight: 500;
+	}
+
+	.lozenges-default {
+		background: #f2f2f2;
+	}
+	.lozenges-success {
+		background: #e6ffe6;
+	}
+	.lozenges-removed {
+		background: #ffe6e6;
+	}
+	.lozenges-inprogress {
+		background: #e6ecff;
+	}
+	.lozenges-new {
+		background: #f0e6ff;
+	}
+	.lozenges-moved {
+		background: #fff5e6;
+	}
+
+	.badges-default {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+	}
+
+	.badges-success {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+		background: #e6ffe6;
+	}
+	.badges-removed {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+		background: #ffe6e6;
+	}
+	.badges-inprogress {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+		background: #e6ecff;
+	}
+	.badges-new {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+		background: #f0e6ff;
+	}
+	.badges-moved {
+		padding: 2px 6px;
+    border-radius: 8px;
+    /* height: 11px; */
+    /* width: auto; */
+    font-weight: 500;
+    vertical-align: middle;
+    background: #f2f2f2;
+    font-size: 9px;
+		background: #fff5e6;
+	}
+
+	.banner {
+		width: 100%;
+		height: 48px;
+		background: #ffa105;
+		color: #162643;
+
+		p {
+			padding: 4px 16px;
+			vertical-align: middle;
+		}
+	}
+}
+.hidden {
+	display: none;
 }
